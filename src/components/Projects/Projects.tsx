@@ -27,7 +27,7 @@ const data = [
   },
   {
     name: "Advanced Networking Case Study",
-    desc: "Enterprise network case study from Ontario Tech University.",
+    desc: "Enterprise networking case study from Ontario Tech University.",
     image:
       "https://learn.g2.com/hubfs/Learn%20Hub%20Featured%20Images/_learn-iPaaS@2x.png",
     repo: "",
