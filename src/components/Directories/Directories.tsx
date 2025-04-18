@@ -4,30 +4,35 @@ import { useState } from "react";
 import Docs from "../Docs/Docs";
 import Other from "../Other/Other";
 
+type Section = "docs" | "projects" | "other" | null;
+
 export default function Directories() {
-  const [showProj, setShowProj] = useState(false);
-  const [showDocs, setShowDocs] = useState(false);
-  const [showOther, setShowOther] = useState(false);
+  const [activeSection, setActiveSection] = useState<Section>(null);
+
+  const toggleSection = (section: Section) => {
+    setActiveSection((prev) => (prev === section ? null : section));
+  };
+
   return (
     <div className={styles.index}>
       <div className={styles.direc}>
-        <p className={styles.directory} onClick={() => setShowProj(!showProj)}>
-          projects
-        </p>
-        <p className={styles.directory} onClick={() => setShowDocs(!showDocs)}>
+        <p className={styles.directory} onClick={() => toggleSection("docs")}>
           docs
         </p>
         <p
           className={styles.directory}
-          onClick={() => setShowOther(!showOther)}
+          onClick={() => toggleSection("projects")}
         >
+          projects
+        </p>
+        <p className={styles.directory} onClick={() => toggleSection("other")}>
           other
         </p>
       </div>
 
-      {showDocs && <Docs />}
-      {showProj && <Projects />}
-      {showOther && <Other />}
+      {activeSection === "docs" && <Docs />}
+      {activeSection === "projects" && <Projects />}
+      {activeSection === "other" && <Other />}
     </div>
   );
 }
