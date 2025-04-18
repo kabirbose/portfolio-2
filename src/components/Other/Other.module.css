@@ -1,0 +1,12 @@
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.desc {
+  font-style: italic;
+  text-align: center;
+}

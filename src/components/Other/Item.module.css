@@ -1,0 +1,29 @@
+.item {
+  background-color: rgb(180, 210, 255);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  width: 30rem;
+  gap: 15px;
+}
+
+.img {
+  width: 5rem;
+}
+
+.title {
+  margin-top: -1px;
+  margin-bottom: -5px;
+}
+
+.desc {
+  margin-bottom: -1px;
+}
+
+.text-con {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
