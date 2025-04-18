@@ -24,11 +24,13 @@ export default function ProjectCard({
 
       <div className={styles["btn-con"]}>
         <a target="_blank" href={repo} className={styles.btn}>
-          Repo
+          GitHub
         </a>
-        <a target="_blank" href={demo} className={styles.btn}>
-          Demo
-        </a>
+        {demo && (
+          <a target="_blank" href={demo} className={styles.btn}>
+            Demo
+          </a>
+        )}
       </div>
     </div>
   );

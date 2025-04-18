@@ -15,7 +15,7 @@ export default function Directories() {
         <p className={styles.directory} onClick={() => setShowDocs(!showDocs)}>
           docs
         </p>
-        <p className={styles.directory}>books</p>
+        <p className={styles.directory}>books & movies</p>
         <p className={styles.directory}>blog</p>
       </div>
 
