@@ -1,8 +1,7 @@
 .card {
-  border: 1px solid rgb(245, 245, 245);
-  width: 20rem;
-  box-shadow: 0.5px 0.5px 5px rgb(245, 245, 245);
+  box-sizing: border-box;
   padding: 20px;
+  background-color: rgb(230, 230, 230);
 }
 
 .img {
