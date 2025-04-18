@@ -30,6 +30,14 @@ export default function Directories() {
         </p>
       </div>
 
+      {!activeSection && (
+        <div className={styles["pug-con"]}>
+          <p className={styles.desc}>
+            Welcome to my website, here's a cool picture of my dog!
+          </p>
+          <img className={styles.puggy} src="puggy.png" />
+        </div>
+      )}
       {activeSection === "docs" && <Docs />}
       {activeSection === "projects" && <Projects />}
       {activeSection === "other" && <Other />}
