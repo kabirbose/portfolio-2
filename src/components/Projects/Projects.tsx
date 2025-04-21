@@ -57,6 +57,14 @@ const data = [
     repo: "",
     demo: "",
   },
+  {
+    name: "WTI Zero-Touch Provisioning",
+    desc: "Lets WTIs access a TFTP server and configure themselves.",
+    image:
+      "https://cdn.shopify.com/s/files/1/0378/0136/1540/files/WTI_Logo_Square_Help_2020_outlines_1200x628_Border_06e879a1-f199-415b-8825-bacba7266e48.jpg?v=1599994126",
+    repo: "",
+    demo: "",
+  },
 ];
 
 export default function Projects() {
