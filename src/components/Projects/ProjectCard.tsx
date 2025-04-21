@@ -23,9 +23,11 @@ export default function ProjectCard({
       <p>{desc}</p>
 
       <div className={styles["btn-con"]}>
-        <a target="_blank" href={repo} className={styles.btn}>
-          GitHub
-        </a>
+        {repo && (
+          <a target="_blank" href={repo} className={styles.btn}>
+            GitHub
+          </a>
+        )}
         {demo && (
           <a target="_blank" href={demo} className={styles.btn}>
             Demo

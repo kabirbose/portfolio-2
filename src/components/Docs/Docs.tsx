@@ -8,14 +8,14 @@ const data = [
     link: "https://drive.google.com/file/d/1gGzEfeKjPOom64R2Tsqumk2_mt10rQmG/view?usp=drive_link",
   },
   {
-    name: "Advanced Networking assignment",
-    desc: "My professional resume.",
-    link: "/",
+    name: "Networking Case Study",
+    desc: "Instructions for my case study from my Advanced Networking class. Copyright of Prof. Josh Lowe at Ontario Tech University.",
+    link: "https://drive.google.com/file/d/1giBgpO_sJOlsSshzhOLJIW0EW0p3ZbDs/view?usp=drive_link",
   },
   {
-    name: "Advanced Networking II",
-    desc: "My professional resume.",
-    link: "/",
+    name: "Networking II Case Study",
+    desc: "Instructions for my case study from my Advanced Networking II class. Copyright of Prof. Josh Lowe at Ontario Tech University.",
+    link: "https://drive.google.com/file/d/1XX-GddCB7ekVkKz-whp-ishjTvNg-8E5/view?usp=drive_link",
   },
 ];
 

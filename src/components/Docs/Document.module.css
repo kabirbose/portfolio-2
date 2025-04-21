@@ -12,6 +12,9 @@
   margin-bottom: -5px;
 }
 
-.desc {
-  margin-bottom: -1px;
+.link {
+  background-color: rgb(255, 235, 147);
+  padding: 4px;
+  text-decoration: none;
+  color: rgb(55, 55, 55);
 }

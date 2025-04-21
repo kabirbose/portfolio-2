@@ -12,7 +12,7 @@ export default function Document({ title, desc, link }: DocumentData) {
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.desc}>{desc}</p>
       <a className={styles.link} target="_blank" href={link}>
-        link
+        View
       </a>
     </div>
   );
