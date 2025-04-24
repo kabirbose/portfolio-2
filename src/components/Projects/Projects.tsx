@@ -6,7 +6,7 @@ const data = [
     name: "SQL Translator",
     desc: "Lets you query your relational database with English instead of SQL.",
     image:
-      "https://aembit.io/wp-content/uploads/2023/09/The-Strange-World-of-Postgres-TLS.png",
+      "https://www.jetbrains.com/datagrip/img/screenshots/query-console.png",
     repo: "https://github.com/kabirbose/sql-translator",
     demo: "",
   },
@@ -36,7 +36,7 @@ const data = [
   },
   {
     name: "CCNA Labs",
-    desc: "CCNA labs from Jeremy's IT Lab. Used these to study for my CCNA.",
+    desc: "CCNA labs from Jeremy's IT Lab.",
     image: "https://cdn.fs.teachablecdn.com/oIf4GkTei8igO0j3z70g",
     repo: "",
     demo: "",

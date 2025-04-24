@@ -4,7 +4,7 @@
   align-items: start;
   flex-direction: column;
   padding: 10px;
-  background-color: rgb(255, 225, 95);
+  background-color: rgb(35, 35, 35);
 }
 
 .title {
@@ -13,8 +13,8 @@
 }
 
 .link {
-  background-color: rgb(255, 235, 147);
+  background-color: rgb(60, 60, 60);
   padding: 4px;
   text-decoration: none;
-  color: rgb(55, 55, 55);
+  color: rgb(173, 255, 121);
 }
